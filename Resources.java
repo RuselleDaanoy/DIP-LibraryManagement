@@ -1,3 +1,3 @@
 public interface Resources {
-    String getTitle();
+    void borrow();
 }
