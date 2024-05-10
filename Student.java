@@ -1,5 +1,11 @@
 public class Student {
-    public void borrowResource(Resources resource) {
-        resource.borrow();
+    private String name;
+
+    public Student(String name){
+        this.name=name;
+    }
+
+    public String getName() {
+        return name;
     }
 }

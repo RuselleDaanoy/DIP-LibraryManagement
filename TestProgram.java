@@ -1,11 +1,11 @@
 public class TestProgram {
     public static void main(String[] args) {
-        Student student = new Student();
+        Student student = new Student("Student 1");
+        Book book = new Book("Book 1");
+        Journal journal = new Journal("Journal 1");
 
-        Resources book = new Book("");
-        Resources journal = new Journal("");
-
-        student.borrowResource(book);
-        student.borrowResource(journal);
+        ResourceHandler resourcesHandler = new ResourceHandler();
+        resourcesHandler.acquireResources(student, book);
+        resourcesHandler.acquireResources(student, journal);
     }
 }
