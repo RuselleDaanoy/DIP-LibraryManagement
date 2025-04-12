@@ -9,4 +9,5 @@ public class Journal implements Resources {
     public void borrow() {
         System.out.println(title);
     }
+    
 }

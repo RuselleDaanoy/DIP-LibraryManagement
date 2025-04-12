@@ -9,4 +9,5 @@ public class Book implements Resources {
     public void borrow() {
         System.out.println(title);
     }
+    
 }
