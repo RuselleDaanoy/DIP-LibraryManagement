@@ -1,4 +1,4 @@
-# LAB6SOLID
+# DIP Library Management (SOLID)
 
 The NEU Library offers a variety of resources, including books, theses, capstones, internet access, journals, and newspapers.
 
